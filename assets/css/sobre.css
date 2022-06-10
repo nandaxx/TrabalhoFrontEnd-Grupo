@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f5ec;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar {
+    margin: 0;
+    background-color: #d6a360;
+}
+h5{
+    color: #ffffff;
+}
+h5:hover{
+    transform: translate(0px, -2px);
+    transform: scale(1.1);
+    color: #aa6b18;
+}
+
+.corpo {
+    margin: auto;
+    width: 80%;
+
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background-color: #b6a290;
+    width: 100%;
+    height: 25rem;
+
+}
+
+.left,
+.textoTop {
+    width: 70%;
+    background-color: #b6a290;
+    display: flex;
+    align-items: center;
+
+}
+
+.textoTop {
+    margin: auto;
+}
+
+.right {
+    width: 30%;
+    background-color: #986c43af;
+    margin: auto;
+}
+
+.colaboradores {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    gap: 1rem;
+
+}
+
+.corpoColab {
+    flex-wrap: wrap;
+    background-color: #b6a290;
+
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    width: 10rem;
+    flex-direction: column;
+}
+
+.cima {
+    display: flex;
+    align-items: center;
+    background-color: #986c4357;
+}
+
+.foto {
+    width: 70%;
+    margin: auto;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.linha {
+    text-align: center;
+    width: 80%;
+}
+
+.nome {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.amostra {
+    width: 100%;
+    height: 100%;
+
+}
+
+.time {
+    margin: auto;
+}
+
+@media screen and (max-width:600px) {
+    .top {
+        height: 40%;
+        background-color: #b6a290;
+    }
+}

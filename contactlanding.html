@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" sizes="57x57" href="./assets/imagens/logo.png">
+    <title>Contato</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-bisque">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/imagens/logo.png" alt="icon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">
+                            <h5>Home</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html" target="_blank">
+                            <h5>Sobre</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactlanding.html" target="_blank">
+                            <h5>Contato</h5>
+                        </a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tela">
+
+        <div class="esquerda">
+            <h1 class="title">Entre em contato para dicas de viagem</h1>
+            <h3 class="subtitle"> Vamos te ajudar a transformar seu sonho em realidade!</h3>
+
+            <h3 class="subcontato"> Contato:</h3>
+            <div class="contat">
+                <div class="email">
+                    <img src="./assets/imagens/emailsize.png" alt="icone email">
+                    <a href="mailto:viagem@gmail.com.br">
+                        +v@gmail.com
+                    </a>
+                </div>
+
+                <div class="phone-call">
+                    <img id="phoni" src="./assets/imagens/telsize.png" alt="icone phone-call">
+                    <a href="tel:2126411566">2532-0185</a>
+                </div>
+                <div class="iconesdasredes">
+
+                    <a href="https://www.instagram.com/"> <img class="iconesred" src="./assets/imagens/instasize.png">
+                    </a>
+                    <a href="https://www.facebook.com/"> <img class="iconesred" src="./assets/imagens/facesize.png">
+                    </a>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="direita">
+            <h2 class="inbox">Nos mande um inbox</h2>
+            <div class="formulario">
+                <form class="form-container">
+                    <div class="form-group" action="" id="formulario" method="POST" name="formulario">
+                        <legend>
+
+                            <input class="form-control" type="text" name="name" id="nome1" placeholder="Nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="phone" id="phone" placeholder="Telefone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="subject" id="subject" placeholder="Título"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Mensagem"
+                            required></textarea>
+
+                    </div>
+                    <button class="btn-submit" type="submit" onclick="validar()">Enviar</button>
+                    </legend>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="cabc">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #d6a360;">
+            <a class="text-dark" href="./index.html"><img style="height: 30px; width: 40px; margin-bottom: 4px;"
+                    src="https://cdn.discordapp.com/attachments/970693022998224927/974795243717267486/v.png" alt="icon">
+                <h5 style="color: #ffffff; font-family: 'Poppins',sans-serif">Desenvolvido por Residencia em TIC
+                    Software
+                    2022-1<br> Turma: 01 - Petrópolis Grupo: 03</h5>
+            </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <script src="./assets/js/validacao.js"></script>
+
+
+</body>
+
+</html>
